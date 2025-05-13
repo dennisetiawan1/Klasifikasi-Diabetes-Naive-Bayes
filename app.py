@@ -19,7 +19,7 @@ else:
 limits = {
     "Pregnancies": (0, 20),
     "Glucose": (50, 200),
-    "Blood Pressure": (40, 140),
+    "Blood Pressure": (20, 180),
     "Skin Thickness": (0, 100),
     "Insulin": (0, 900),
     "BMI": (10, 70),
