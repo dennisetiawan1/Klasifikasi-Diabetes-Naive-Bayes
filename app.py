@@ -15,7 +15,7 @@ else:
     st.error("Model tidak ditemukan. Pastikan file 'naive_bayes_model.pkl' ada di folder 'model'.")
     st.stop()
 
-# Batas input manual
+# Batas input
 limits = {
     "Pregnancies": (0, 20),
     "Glucose": (50, 200),
@@ -27,7 +27,7 @@ limits = {
     "Age": (10, 100)
 }
 
-# Tampilkan batas minimum dan maksimum (tanpa koma di belakang angka)
+# Tampilkan batas minimum dan maksimum
 with st.expander("Lihat Batas Minimum dan Maksimum"):
     df_limits = pd.DataFrame({
         "Min": [f"{int(v[0])}" if float(v[0]).is_integer() else f"{v[0]:.2f}" for v in limits.values()],
