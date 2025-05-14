@@ -7,6 +7,8 @@ import os
 # Judul
 st.title("Klasifikasi Diabetes menggunakan Naive Bayes")
 
+#tes
+
 # Cek apakah model tersedia
 model_path = 'model/naive_bayes_model.pkl'
 if os.path.exists(model_path):
