@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Judul
-st.title("Prediksi Menggunakan Naive Bayes")
+st.title("Klasifikasi menggunakan Naive Bayes")
 
 # Cek apakah model tersedia
 model_path = 'model/naive_bayes_model.pkl'
